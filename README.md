@@ -21,6 +21,6 @@ By observing the image, it can be determined that the kind of degradation functi
 The performance of Weiner filters applied on the image is way better than the performance of the inverse filters on the images since the Weiner filters can clarify the image. The Wiener filter is a filter used to produce an estimate of a desired or target random process by linear time-invariant filtering of the provided noisy process, this filter also minimizes the mean square error between the estimated random process and the desired process. Additionally, as we can see that, the plate of the vehicle in the provided picture is WX55-HVW, the make of the vehicle is Mitsubishi Motors and the model of the vehicle is mini-SUV.
   
 # <sub> MATLAB Objectives
-* fspecial: generates a 2-D filter of various kinds, including motion filters that may be used to cause image degradation.
+* fspecial: generates a 2-D filter of various kinds, including motion filters that cause image degradation.
 * scale2bytes: scales the intensity of a 2-D image appropriately, and generates an 8-bit digital image.
 * logscale2bytes: scales the intensity of a 2-D function appropriately, and generates an 8-bit digital image.
